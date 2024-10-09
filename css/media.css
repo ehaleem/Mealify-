@@ -1,0 +1,325 @@
+/* Extra small screens */
+@media all and (width <= 640px){
+    .container{
+        width: 85%;
+    }
+    .nav{
+        padding: 20px 0;
+    }
+    .nav .container .nav-logo a{
+        font-size: 25px;
+    }
+    .nav .container .icon{
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    
+    .nav .container .nav-links{
+        height: 200px;
+        flex-direction: column;
+        position: absolute;
+        background-color:#ffffff;
+        left: 100%;
+        top: 70px;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    body:has(input:checked) .nav-links{
+        background-color: black !important;
+    }
+    .nav .container .nav-links li a{
+       color: black;
+    }
+
+    .nav .container .nav-mode {
+        position: absolute;
+        bottom: 34px;
+        right: 90px;
+    }
+
+    .head-title h1{
+        font-size: 48px;
+    }
+
+    .hero-section {
+        margin-top: 60px;
+    }
+    .hero-section .content{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .hero-section .container .caption {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .hero-section .container .content .caption h1{
+        font-size: 55px;
+    }
+    .hero-section .container .content .caption p{
+        width: 100%;
+        font-size: 15px;
+    }
+    .hero-section .container .content .caption .btns {
+        justify-content: center;
+    }
+
+    .hero-section .container .content .caption .btns {
+        gap: 10px;
+    }
+    .hero-section .container .content .caption .btns .play .play-icon{
+        padding: 10px;
+    }
+    .hero-section .container .content .caption .btns .btn-one {
+        text-wrap: none;
+        padding: 10 20px;
+    }
+
+    .chefs-section .container-cart{
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .chefs-section .container-cart .cart{
+        width: 100%;
+    }
+
+
+
+    .contact-section .info{
+        flex-direction: column;
+    }
+    .contact-section .info .info-cart{
+        width: 100%;
+    }
+
+    .contact-section form .first-line{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contact-section form .first-line input{
+        width: 100%;
+    }
+    footer{
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+    footer .col{
+        width: 100%;
+        padding: 0;
+    }
+
+    footer .col-2 .subscribe form{
+        flex-direction: column;
+    }
+    footer .col-2 .subscribe form input {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    footer .col-2 .subscribe form button{
+        width: 100%;
+    }
+
+}
+
+
+
+
+/* Small screens */
+@media all and (640px < width <= 768px){
+    .container{
+        width: 85%;
+    }
+    .nav .container .nav-logo a{
+        font-size: 25px;
+    }
+    .nav .container .icon{
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    
+    .nav .container .nav-links{
+        height: 200px;
+        flex-direction: column;
+        position: absolute;
+        background-color:#ffffff;
+        left: 100%;
+        top: 70px;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    body:has(input:checked) .nav-links{
+        background-color: black !important;
+        color: white;
+    }
+    .nav .container .nav-links li a{
+        color: black;
+    }
+    .nav .container .nav-mode {
+        position: absolute;
+        bottom: 44px;
+        right: 120px;
+    }
+
+    .hero-section {
+        margin-top: 60px;
+    }
+    .hero-section .content{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .hero-section .container .caption {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .hero-section .container .content .caption h1{
+        font-size: 55px;
+    }
+    .hero-section .container .content .caption p{
+        width: 100%;
+        font-size: 15px;
+    }
+    .hero-section .container .content .caption .btns {
+        justify-content: center;
+    }
+
+
+    .chefs-section .container-cart{
+        flex-direction: column;
+        gap: 45px;
+    }
+
+    .chefs-section .container-cart .cart{
+        width: 100%;
+    }
+
+    .contact-section form .first-line{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contact-section form .first-line input{
+        width: 100%;
+    }
+
+    footer{
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+    footer .col{
+        width: 100%;
+        padding: 0;
+    }
+
+    footer .col-2 .subscribe form{
+        flex-direction: column;
+    }
+    footer .col-2 .subscribe form input {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    footer .col-2 .subscribe form button{
+        width: 100%;
+    }
+}
+
+
+
+
+/* med screens */
+@media all and (768px < width <= 1024px){
+    .container{
+        width: 85%;
+    }
+    .nav .container .nav-links{
+        width: 40%;
+    }
+
+    .chefs-section .container-cart{
+        row-gap: 40px;
+        column-gap: 30px;
+    }
+    .chefs-section .container-cart .cart{
+        width: 47%;
+
+    }
+
+    .gallery-section .gallery-cart{
+        columns: 2 230px;
+    }
+
+    footer{
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+    footer .col{
+        width: 100%;
+    }
+
+    footer .col-2 .subscribe form{
+        /* flex-direction: column; */
+    }
+    footer .col-2 .subscribe form input {
+        width: 80%;
+        margin-bottom: 15px;
+    }
+    footer .col-2 .subscribe form button{
+        width: 20%;
+    }
+
+}
+
+
+/* large screens */
+@media all and (1024px < width <= 1280px){
+
+    .nav .container .nav-links{
+        width: 35%;
+    }
+
+
+    .chefs-section .container-cart{
+        row-gap: 40px;
+        column-gap: 30px;
+    }
+    .chefs-section .container-cart .cart{
+        width: 48%;
+
+    }
+
+    .gallery-section .gallery-cart{
+        columns: 3 300px;
+    }
+
+
+}
+
+
+
+
+
+/* Extra large screens */
+@media all and (1280px < width <= 1536px){
+    
+    .chefs-section .container-cart{
+        row-gap: 40px;
+        column-gap: 30px;
+    }
+    .chefs-section .container-cart .cart{
+        flex: 1;
+    }
+
+    .gallery-section .gallery-cart{
+        flex-direction: row;
+    }
+    .gallery-section .gallery-cart{
+        columns: 3 328px;
+    }
+
+}
+
